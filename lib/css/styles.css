@@ -39,6 +39,7 @@ h1 {
 }
 
 h3 {
+    letter-spacing: 4px;
     font-size: 16px;
     padding-bottom: 7px;
     margin: 6px 0px 6px 0px;
@@ -46,7 +47,8 @@ h3 {
 }
 
 .head-text {
-    line-height: 1.2;
+    margin-top: 5px;
+    line-height: 1.4;
 }
 
 .section-contacts {
@@ -70,17 +72,22 @@ h3 {
 }
 
 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: black;
 }
 
 .content-section-left {
-    width: 30%;
+    display: flex;
+    flex-direction: column;
     padding: 10px 25px 0px 0px;
 }
 
 .content-section-right {
-    width: 70%;
+    display: flex;
+    flex-direction: column;
     padding: 10px 0px 0px 25px;
     border-left: 1px solid gray;
 }
@@ -90,8 +97,9 @@ a {
 }
 
 h4 {
+    letter-spacing: 4px;
     font-size: 20px;
-    margin: 10px 0px 20px 0px;
+    margin: 10px 0px 10px 0px;
     padding-bottom: 7px;
     border-bottom: 2px solid green;
 }
@@ -107,6 +115,11 @@ h5 {
 p {
     line-height: 1.3;
     margin-top: 6px;
+    font-size: 15px;
+}
+
+.year {
+    margin-bottom: 20px;
 }
 
 .professional {
@@ -118,7 +131,7 @@ p {
 }
 
 ul {
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 li {
