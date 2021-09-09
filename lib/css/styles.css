@@ -1,10 +1,5 @@
 body {
-    background-color: #000000;
-    background: url(/lib/photo/forest.jpg);
-    -moz-background-size: 100%;
-    -webkit-background-size: 100%;
-    background-size: 100%;
-        
+    background-color: #8e9981;     
 }
 
 main {
@@ -35,7 +30,7 @@ h1 {
 }
 
 .colortext {
-    color:green;
+    color:#2b7a2b;
 }
 
 h3 {
